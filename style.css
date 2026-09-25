@@ -70,6 +70,14 @@ table { border-collapse: collapse; width: 100%; font-size: 15.5px; }
 th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--rule); }
 th { color: var(--muted); font-weight: 600; white-space: nowrap; }
 
+/* На телефоні таблиця прав і категорій даних інакше має чотири колонки по три
+   слова: вона й так гортається вбік, але з дрібнішим набором більшість рядків
+   уміщається одразу. */
+@media (max-width: 480px) {
+  table { font-size: 14px; }
+  th, td { padding: 8px 10px; }
+}
+
 code { background: var(--code-bg); border-radius: 4px; padding: 1px 5px; font-size: 90%; }
 
 footer {
