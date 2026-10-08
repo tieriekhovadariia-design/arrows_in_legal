@@ -15,10 +15,10 @@
 </header>
 
 <main>
-<p class="meta">Version 1.1 · Last updated 7 October 2026</p>
+<p class="meta">Version 1.2 · Last updated 8 October 2026</p>
 
 <div class="lead">
-  <p><strong>The short version.</strong> Arrows In! has no accounts, no sign-in and no servers of our own. Your progress, settings and purchases are stored only on your device. The game does use Google services for advertising, anonymous usage statistics and crash reports, and the app stores handle payments. We never ask for your name, email, contacts, photos or location, and we never sell personal data.</p>
+  <p><strong>The short version.</strong> Arrows In! has no accounts, no sign-in and no servers of our own. Your progress, settings and purchases are stored only on your device. The game does use Google services for advertising, anonymous usage statistics and crash reports, and the app stores handle payments, which RevenueCat verifies for us. We never ask for your name, email, contacts, photos or location, and we never sell personal data.</p>
 </div>
 
 <h2>1. Who is responsible for your data</h2>
@@ -67,6 +67,7 @@
 
 <h3>4.5 Payments — Apple App Store and Google Play</h3>
 <p>All purchases are processed by Apple or Google, depending on where you installed the Game. <strong>We never see or handle your payment details.</strong> From the store we receive confirmation that a purchase succeeded, the product identifier, and the list of your past non-consumable purchases of this Game, so that the &ldquo;Restore purchases&rdquo; button and our returning-player discounts can work. Your purchase history in this Game also determines which price level and offers you are shown; section 11.1 explains what that means and what it does not.</p>
+<p>To check that each purchase is genuine and to restore one-time purchases after a reinstall, the Game uses <strong>RevenueCat</strong> (RevenueCat, Inc.), which acts as our processor. RevenueCat receives a random identifier it creates for this installation of the Game, the store&rsquo;s purchase token and transaction details (product, price, currency, store country, dates), your device type, operating system and app version, and the request&rsquo;s IP address. It never receives your payment details, name or email. See the <a href="https://www.revenuecat.com/privacy" rel="noopener">RevenueCat Privacy Policy</a>.</p>
 <p>See Apple&rsquo;s <a href="https://www.apple.com/legal/privacy/" rel="noopener">Privacy Policy</a> and Google&rsquo;s <a href="https://policies.google.com/privacy" rel="noopener">Privacy Policy</a>.</p>
 
 <h3>4.6 Over-the-air updates — Expo</h3>
@@ -113,12 +114,12 @@
   <li><strong>Analytics events:</strong> retained by Google for the period we configure in Firebase, currently up to 14 months, after which they are deleted or kept only in aggregate form.</li>
   <li><strong>Crash reports:</strong> retained by Crashlytics for up to 90 days.</li>
   <li><strong>Advertising data:</strong> retained by Google according to its own policies and your ad settings.</li>
-  <li><strong>Purchase records:</strong> kept by Apple or Google for as long as their terms and tax law require; we hold no separate copy.</li>
+  <li><strong>Purchase records:</strong> kept by Apple or Google for as long as their terms and tax law require. RevenueCat keeps a copy linked to the random installation identifier, on our behalf, for as long as it is needed to verify and restore purchases and for our accounting; we delete it on request where the law allows.</li>
   <li><strong>Support emails:</strong> up to two years, then deleted.</li>
 </ul>
 
 <h2>9. Where data goes</h2>
-<p>Google, Apple and Expo process data on servers in the United States and other countries, so data about your use of the Game will usually leave your own country. Where data is transferred out of the EEA, the UK or Switzerland, those providers rely on the European Commission&rsquo;s standard contractual clauses and, where applicable, on the EU-US, UK-US and Swiss-US Data Privacy Frameworks. For transfers governed by other laws — Brazil, Canada, Australia, Japan, Korea, South Africa and others — those providers apply the safeguards their own policies describe. We transfer nothing ourselves, because we receive no personal data to transfer.</p>
+<p>Google, Apple, RevenueCat and Expo process data on servers in the United States and other countries, so data about your use of the Game will usually leave your own country. Where data is transferred out of the EEA, the UK or Switzerland, those providers rely on the European Commission&rsquo;s standard contractual clauses and, where applicable, on the EU-US, UK-US and Swiss-US Data Privacy Frameworks. For transfers governed by other laws — Brazil, Canada, Australia, Japan, Korea, South Africa and others — those providers apply the safeguards their own policies describe. We transfer nothing ourselves, because we receive no personal data to transfer.</p>
 
 <h2>10. Rights you have wherever you live</h2>
 <p>Whatever your country, and without needing to quote a law at us, you may:</p>
